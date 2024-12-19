@@ -1,0 +1,395 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\Portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\controllers\\utilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\controllers\\utilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\repository\\codingprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\repository\\codingprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\repository\\coreskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\repository\\coreskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\controllers\\codingprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\controllers\\codingprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\repository\\educationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\repository\\educationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\services\\codingprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\services\\codingprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\services\\coreskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\services\\coreskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\repository\\icodingprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\repository\\icodingprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\controllers\\workexperiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\controllers\\workexperiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\model\\dto\\coreskilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\model\\dto\\coreskilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\model\\dto\\codingprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\model\\dto\\codingprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\model\\dto\\educationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\model\\dto\\educationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\repository\\icoreskillrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\repository\\icoreskillrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\repository\\ieducationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\repository\\ieducationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\model\\codingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\model\\codingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\model\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\model\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\model\\coreskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\model\\coreskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\model\\workexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\model\\workexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\databasesetting\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\databasesetting\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|c:\\users\\acer\\source\\repos\\portfolio\\portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5AA006AE-0523-4D7A-8963-CF5970F05C82}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "Portfolio\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:15:40.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UtilityController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Controllers\\UtilityController.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Controllers\\UtilityController.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Controllers\\UtilityController.cs",
+              "RelativeToolTip": "Portfolio\\Controllers\\UtilityController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:12:41.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CodingProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Services\\CodingProfileService.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Services\\CodingProfileService.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Services\\CodingProfileService.cs",
+              "RelativeToolTip": "Portfolio\\Services\\CodingProfileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T13:14:31.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CodingProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\CodingProfileRepository.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Repository\\CodingProfileRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\CodingProfileRepository.cs",
+              "RelativeToolTip": "Portfolio\\Repository\\CodingProfileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:06:40.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Program.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Program.cs",
+              "RelativeToolTip": "Portfolio\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAUwC8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:03:37.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CodingProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Controllers\\CodingProfileController.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Controllers\\CodingProfileController.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Controllers\\CodingProfileController.cs",
+              "RelativeToolTip": "Portfolio\\Controllers\\CodingProfileController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T11:08:58.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoreSkillRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\CoreSkillRepository.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Repository\\CoreSkillRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\CoreSkillRepository.cs",
+              "RelativeToolTip": "Portfolio\\Repository\\CoreSkillRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:04:08.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EducationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\EducationRepository.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Repository\\EducationRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\EducationRepository.cs",
+              "RelativeToolTip": "Portfolio\\Repository\\EducationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:05:44.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoreSkillService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Services\\CoreSkillService.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Services\\CoreSkillService.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Services\\CoreSkillService.cs",
+              "RelativeToolTip": "Portfolio\\Services\\CoreSkillService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T13:30:31.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICodingProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\ICodingProfileRepository.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Repository\\ICodingProfileRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\ICodingProfileRepository.cs",
+              "RelativeToolTip": "Portfolio\\Repository\\ICodingProfileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:06:23.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WorkExperienceController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Controllers\\WorkExperienceController.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Controllers\\WorkExperienceController.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Controllers\\WorkExperienceController.cs",
+              "RelativeToolTip": "Portfolio\\Controllers\\WorkExperienceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T13:04:10.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CoreSkillDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\DTO\\CoreSkillDTO.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Model\\DTO\\CoreSkillDTO.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\DTO\\CoreSkillDTO.cs",
+              "RelativeToolTip": "Portfolio\\Model\\DTO\\CoreSkillDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:13:07.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CodingProfileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\DTO\\CodingProfileDTO.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Model\\DTO\\CodingProfileDTO.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\DTO\\CodingProfileDTO.cs",
+              "RelativeToolTip": "Portfolio\\Model\\DTO\\CodingProfileDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:13:50.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EducationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\DTO\\EducationDTO.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Model\\DTO\\EducationDTO.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\DTO\\EducationDTO.cs",
+              "RelativeToolTip": "Portfolio\\Model\\DTO\\EducationDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:13:32.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICoreSkillRepository .cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\ICoreSkillRepository .cs",
+              "RelativeDocumentMoniker": "Portfolio\\Repository\\ICoreSkillRepository .cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\ICoreSkillRepository .cs",
+              "RelativeToolTip": "Portfolio\\Repository\\ICoreSkillRepository .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:01:16.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEducationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\IEducationRepository.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Repository\\IEducationRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Repository\\IEducationRepository.cs",
+              "RelativeToolTip": "Portfolio\\Repository\\IEducationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:05:04.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CodingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\CodingProfile.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Model\\CodingProfile.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\CodingProfile.cs",
+              "RelativeToolTip": "Portfolio\\Model\\CodingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T11:08:19.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Education.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\Education.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Model\\Education.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\Education.cs",
+              "RelativeToolTip": "Portfolio\\Model\\Education.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T11:01:33.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CoreSkill.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\CoreSkill.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Model\\CoreSkill.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\CoreSkill.cs",
+              "RelativeToolTip": "Portfolio\\Model\\CoreSkill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T10:41:57.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WorkExperience.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\WorkExperience.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Model\\WorkExperience.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\Model\\WorkExperience.cs",
+              "RelativeToolTip": "Portfolio\\Model\\WorkExperience.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:04:40.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\DatabaseSetting\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "Portfolio\\DatabaseSetting\\MongoDbSettings.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\DatabaseSetting\\MongoDbSettings.cs",
+              "RelativeToolTip": "Portfolio\\DatabaseSetting\\MongoDbSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:03:11.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\appsettings.json",
+              "RelativeDocumentMoniker": "Portfolio\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\Portfolio\\Portfolio\\appsettings.json",
+              "RelativeToolTip": "Portfolio\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T08:55:53.917Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
