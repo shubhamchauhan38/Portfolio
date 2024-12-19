@@ -1,38 +1,54 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Portfolio.Model.DTO;
+using Portfolio.Service;
+using System.Linq;
+using System.Threading.Tasks;
 
-[ApiController]
-[Route("api/[controller]")]
-public class CodingProfileController : ControllerBase
+namespace Portfolio.Controllers
 {
-    private readonly CodingProfileService _codingProfileService;
-
-    public CodingProfileController(CodingProfileService codingProfileService)
+    [ApiController]
+    [Route("api/[controller]")]
+    public class CodingProfileController : ControllerBase
     {
-        _codingProfileService = codingProfileService;
-    }
+        private readonly CodingProfileService _codingProfileService;
 
-    [HttpGet]
-    public async Task<IActionResult> GetAll()
-    {
-        var codingProfiles = await _codingProfileService.GetAllAsync();
-        var codingProfileDTOs = codingProfiles.Select(profile => new CodingProfileDTO
+        public CodingProfileController(CodingProfileService codingProfileService)
         {
-            Platform = profile.Platform,
-            Link = profile.Link
-        }).ToList();
-        return Ok(codingProfileDTOs);
-    }
+            _codingProfileService = codingProfileService;
+        }
 
-    [HttpPost]
-    public async Task<IActionResult> Create([FromBody] CodingProfileDTO codingProfileDTO)
-    {
-        var profile = new CodingProfile
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
         {
-            Platform = codingProfileDTO.Platform,
-            Link = codingProfileDTO.Link
-        };
-        var result = await _codingProfileService.CreateAsync(profile);
-        return CreatedAtAction(nameof(GetAll), new { id = result.Id }, result);
+            var codingProfiles = await _codingProfileService.GetAllAsync();
+            var codingProfileDTOs = codingProfiles.Select(profile => new CodingProfileDTO
+            {
+                Platform = profile.Platform,
+                Link = profile.Link
+            }).ToList();
+            return Ok(codingProfileDTOs);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CodingProfileWrapperDTO wrapperDTO)
+        {
+            if (wrapperDTO == null || wrapperDTO.CodingProfiles == null || !wrapperDTO.CodingProfiles.Any())
+            {
+                return BadRequest("CodingProfileWrapperDTO or CodingProfiles list is null or empty");
+            }
+
+            // Assuming you need to create multiple coding profiles
+            foreach (var codingProfileDTO in wrapperDTO.CodingProfiles)
+            {
+                var profile = new CodingProfile
+                {
+                    Platform = codingProfileDTO.Platform,
+                    Link = codingProfileDTO.Link
+                };
+                var result = await _codingProfileService.CreateAsync(profile);
+            }
+
+            return Ok("Coding profiles created successfully");
+        }
     }
 }
