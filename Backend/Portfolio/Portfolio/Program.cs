@@ -16,8 +16,12 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<MongoDbSettings>(
     builder.Configuration.GetSection("MongoDbSettings"));
 
-builder.Services.AddSingleton<IMongoClient, MongoClient>(
-    sp => new MongoClient(builder.Configuration.GetValue<string>("MongoDbSettings:ConnectionString")));
+builder.Services.AddSingleton<IMongoClient, MongoClient>(sp =>
+{
+    var settings = MongoClientSettings.FromUrl(new MongoUrl(builder.Configuration.GetValue<string>("MongoDbSettings:ConnectionString")));
+    settings.SslSettings = new SslSettings() { EnabledSslProtocols = System.Security.Authentication.SslProtocols.Tls12 };
+    return new MongoClient(settings);
+});
 
 // Register Services
 builder.Services.AddScoped<WorkExperienceService>();
@@ -36,7 +40,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // Add the allowed frontend URL here
+        policy.WithOrigins("https://shubhamchauhan38.github.io") // Your React app's hosted URL
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -51,7 +55,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowFrontend");  // Apply the CORS policy
+app.UseCors("AllowFrontend"); // Apply the CORS policy
 
 // Custom error handling middleware
 app.UseMiddleware<ErrorHandlingMiddleware>();

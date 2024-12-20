@@ -13,11 +13,11 @@ public class ProjectController : ControllerBase
         _service = service;
     }
 
-    [HttpGet]
+    [HttpGet("all")]
     public async Task<IActionResult> GetAll() =>
         Ok(await _service.GetAllAsync());
 
-    [HttpPost]
+    [HttpPost("create")]
     public async Task<IActionResult> Create([FromBody] Project project)
     {
         var result = await _service.CreateAsync(project);

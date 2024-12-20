@@ -17,7 +17,7 @@ namespace Portfolio.Controllers
             _coreSkillService = coreSkillService;
         }
 
-        [HttpGet]
+        [HttpGet("all")]
         public async Task<IActionResult> GetAll()
         {
             var coreSkills = await _coreSkillService.GetAllAsync();
@@ -29,7 +29,7 @@ namespace Portfolio.Controllers
             return Ok(coreSkillsDTO);
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<IActionResult> Create([FromBody] SkillsWrapperDTO wrapperDTO)
         {
             if (wrapperDTO == null || wrapperDTO.SkillDTO == null || !wrapperDTO.SkillDTO.Any())

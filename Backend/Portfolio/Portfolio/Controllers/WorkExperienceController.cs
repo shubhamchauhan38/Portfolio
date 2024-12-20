@@ -13,11 +13,11 @@ public class WorkExperienceController : ControllerBase
         _service = service;
     }
 
-    [HttpGet]
+    [HttpGet("all")]
     public async Task<IActionResult> GetAll() =>
         Ok(await _service.GetAllAsync());
 
-    [HttpPost]
+    [HttpPost("create")]
     public async Task<IActionResult> Create([FromBody] WorkExperience experience)
     {
         var result = await _service.CreateAsync(experience);

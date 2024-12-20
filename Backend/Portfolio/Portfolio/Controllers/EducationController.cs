@@ -13,7 +13,7 @@ public class EducationController : ControllerBase
         _educationService = educationService;
     }
 
-    [HttpGet]
+    [HttpGet("all")]
     public async Task<IActionResult> GetAll()
     {
         var educationList = await _educationService.GetAllAsync();
@@ -27,7 +27,7 @@ public class EducationController : ControllerBase
         return Ok(educationDTOs);
     }
 
-    [HttpPost]
+    [HttpPost("create")]
     public async Task<IActionResult> Create([FromBody] EducationDTO educationDTO)
     {
         var education = new Education

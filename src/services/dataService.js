@@ -1,5 +1,5 @@
 // src/services/dataService.js
-const API_URL = 'http://localhost:5180/api'; // Your backend API URL
+const API_URL = 'http://ec2-13-235-79-118.ap-south-1.compute.amazonaws.com:5001/'; // Your backend API URL
 
 // Generic fetch function to handle all API requests
 const fetchData = async (endpoint) => {

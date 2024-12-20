@@ -17,7 +17,7 @@ namespace Portfolio.Controllers
             _codingProfileService = codingProfileService;
         }
 
-        [HttpGet]
+        [HttpGet("all")]
         public async Task<IActionResult> GetAll()
         {
             var codingProfiles = await _codingProfileService.GetAllAsync();
@@ -29,7 +29,7 @@ namespace Portfolio.Controllers
             return Ok(codingProfileDTOs);
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<IActionResult> Create([FromBody] CodingProfileWrapperDTO wrapperDTO)
         {
             if (wrapperDTO == null || wrapperDTO.CodingProfiles == null || !wrapperDTO.CodingProfiles.Any())
