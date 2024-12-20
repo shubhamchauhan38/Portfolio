@@ -17,15 +17,15 @@ const fetchData = async (endpoint) => {
 
 // Function to get core skills
 export const getCoreSkills = () => {
-  return fetchData('CoreSkill');
+  return fetchData('api/CoreSkill/all');
 };
 
 // Function to get work experience
 export const getWorkExperience = () => {
-  return fetchData('WorkExperience');
+  return fetchData('api/WorkExperience/all');
 };
 
 // Function to get projects
 export const getProjects = () => {
-  return fetchData('Project');
+  return fetchData('api/Project/all');
 };
