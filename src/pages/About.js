@@ -1,15 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { getCoreSkills } from '../services/dataService';
+import { coreSkills } from '../services/dataService';
 import { FaCode, FaDatabase, FaTools } from 'react-icons/fa';
+import Spinner from '../component/Spinner'; // Import the Spinner component
 
 const About = () => {
-  const [coreSkills, setCoreSkills] = useState([]);
+  const [loading, setLoading] = useState(true); // Track loading state
 
   useEffect(() => {
     const fetchData = async () => {
-      const fetchedCoreSkills = await getCoreSkills();
-      setCoreSkills(fetchedCoreSkills);
+      // Simulate a delay for fetching data (e.g., 2 seconds)
+      setTimeout(() => {
+        setLoading(false); // After data is fetched, set loading to false
+      });
     };
 
     fetchData();
@@ -19,14 +22,24 @@ const About = () => {
     switch (category) {
       case 'Programming Languages':
         return <FaCode className="text-teal-400 text-3xl mb-2" />;
-      case 'Databases':
+      case 'Web Development':
+        return <FaTools className="text-teal-400 text-3xl mb-2" />;
+      case 'Database Management':
         return <FaDatabase className="text-teal-400 text-3xl mb-2" />;
-      case 'Frameworks':
+      case 'DevOps Tools':
+        return <FaTools className="text-teal-400 text-3xl mb-2" />;
+      case 'Version Control':
+        return <FaTools className="text-teal-400 text-3xl mb-2" />;
+      case 'Core Concepts':
         return <FaTools className="text-teal-400 text-3xl mb-2" />;
       default:
         return <FaTools className="text-teal-400 text-3xl mb-2" />;
     }
   };
+
+  if (loading) {
+    return <Spinner />; // Show Spinner component while fetching data
+  }
 
   return (
     <div className="min-h-screen bg-gray-900 text-white">

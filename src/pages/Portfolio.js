@@ -1,18 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { getProjects } from '../services/dataService';
+import { projects } from '../services/dataService'; // Import projects
+import Spinner from '../component/Spinner'; // Import Spinner component
 
 const Portfolio = () => {
-  const [projects, setProjects] = useState([]);
+  const [projectsData, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true); // Track loading state
 
   useEffect(() => {
+    // Set loading state to true and immediately set the projects
     const fetchData = async () => {
-      const fetchedProjects = await getProjects();
-      setProjects(fetchedProjects);
+      setProjects(projects); // Directly set the static data
+      setLoading(false); // Set loading to false immediately after setting data
     };
 
     fetchData();
-  }, []);
+  }, []); // Empty dependency array means it runs once when the component mounts
+
+  if (loading) {
+    return <Spinner />; // Show Spinner while data is being fetched
+  }
 
   return (
     <div className="min-h-screen bg-gray-900 text-white bg-cover bg-center" style={{ backgroundImage: 'url(/path/to/your/background.jpg)' }}>
@@ -26,7 +33,10 @@ const Portfolio = () => {
           Portfolio
         </motion.h1>
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {projectsData.length === 0 && (
+            <p className="text-gray-400 text-center mt-4">Unable to load projects. Please try again later.</p>
+          )}
+          {projectsData.map((project, index) => (
             <motion.div
               key={index}
               className="bg-gray-800 p-6 rounded-lg shadow-lg"
@@ -38,7 +48,7 @@ const Portfolio = () => {
               <h2 className="text-2xl font-semibold text-white">{project.title}</h2>
               <p className="mt-2 text-gray-300">{project.description}</p>
               <a
-                href='https://github.com/shubhamchauhan38/RideSharingPlatform'
+                href={project.link || 'https://github.com/shubhamchauhan38/RideSharingPlatform'} // Dynamic link if available
                 className="mt-4 inline-block text-teal-500 hover:text-teal-400 transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
