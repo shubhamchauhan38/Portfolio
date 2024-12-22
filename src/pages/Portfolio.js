@@ -1,123 +1,100 @@
-// import React, { useEffect, useState } from 'react';
-// import { motion } from 'framer-motion';
-// import { getProjects } from '../services/dataService';
-
-// const Portfolio = () => {
-//   const [projects, setProjects] = useState([]);
-
-//   useEffect(() => {
-//     const fetchData = async () => {
-//       const fetchedProjects = await getProjects();
-//       setProjects(fetchedProjects);
-//     };
-
-//     fetchData();
-//   }, []);
-
-//   return (
-//     <div className="min-h-screen bg-gray-900 text-white bg-cover bg-center" style={{ backgroundImage: 'url(/path/to/your/background.jpg)' }}>
-//       <div className="bg-black bg-opacity-50 p-8 rounded-lg">
-//         <motion.h1
-//           className="text-4xl font-bold text-white text-center"
-//           initial={{ opacity: 0, y: -50 }}
-//           animate={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 1 }}
-//         >
-//           Portfolio
-//         </motion.h1>
-//         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-//           {projects.map((project, index) => (
-//             <motion.div
-//               key={index}
-//               className="bg-gray-800 p-6 rounded-lg shadow-lg"
-//               initial={{ opacity: 0, y: 50 }}
-//               animate={{ opacity: 1, y: 0 }}
-//               transition={{ duration: 0.8 }}
-//               whileHover={{ scale: 1.05 }}
-//             >
-//               <h2 className="text-2xl font-semibold text-white">{project.title}</h2>
-//               <p className="mt-2 text-gray-300">{project.description}</p>
-//               <a
-//                 href='https://github.com/shubhamchauhan38/RideSharingPlatform'
-//                 className="mt-4 inline-block text-teal-500 hover:text-teal-400 transition duration-300"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//               >
-//                 View Project
-//               </a>
-//             </motion.div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Portfolio;
-
-// filepath: /d:/Programming/React/Portfolio/portfolio/src/pages/Portfolio.js
-
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { projects } from '../services/dataService'; // Import projects
-import Spinner from '../component/Spinner'; // Import Spinner component
+import { useNavigate } from 'react-router-dom';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Portfolio = () => {
-  const [projectsData, setProjects] = useState([]);
-  const [loading, setLoading] = useState(true); // Track loading state
+  const navigate = useNavigate();
 
-  useEffect(() => {
-    // Simulate a delay for fetching data (e.g., 2 seconds)
-    const fetchData = async () => {
-      setProjects(projects); // Directly set the static data
-      setLoading(false); // Set loading to false immediately after setting data
-    };
-
-    fetchData();
-  }, []); // Empty dependency array means it runs once when the component mounts
-
-  if (loading) {
-    return <Spinner />; // Show Spinner while data is being fetched
-  }
+  const handleHireMeClick = () => {
+    navigate('/contact');
+  };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white bg-cover bg-center" style={{ backgroundImage: 'url(/path/to/your/background.jpg)' }}>
-      <div className="bg-black bg-opacity-50 p-8 rounded-lg">
-        <motion.h1
-          className="text-4xl font-bold text-white text-center"
+    <div
+      className="min-h-screen bg-gray-900 text-white flex flex-col justify-center items-center bg-cover bg-center"
+      style={{
+        backgroundImage: 'url(/path/to/your/background.jpg)',
+        backgroundAttachment: 'fixed',
+      }}
+    >
+      <div className="bg-black bg-opacity-70 p-8 rounded-lg text-center max-w-4xl mx-auto shadow-lg">
+        {/* Introduction Section */}
+        <motion.div
+          className="mb-8"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Portfolio
-        </motion.h1>
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projectsData.length === 0 && (
-            <p className="text-gray-400 text-center mt-4">Unable to load projects. Please try again later.</p>
-          )}
-          {projectsData.map((project, index) => (
-            <motion.div
-              key={index}
-              className="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center"
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              whileHover={{ scale: 1.05 }}
-            >
-              <h2 className="text-2xl font-semibold text-teal-400">{project.title}</h2>
-              <p className="mt-2 text-gray-300 text-center">{project.description}</p>
-              <a
-                href={project.link || 'https://github.com/shubhamchauhan38/RideSharingPlatform'} // Dynamic link if available
-                className="mt-4 inline-block text-teal-500 hover:text-teal-400 transition duration-300"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Project
-              </a>
-            </motion.div>
-          ))}
-        </div>
+          <h1 className="text-6xl font-extrabold text-teal-400 mb-4">
+            Hello, I'm Shubham Kumar
+          </h1>
+          <p className="text-2xl text-gray-300 font-light">
+            A Passionate <span className="text-teal-400">Backend Developer</span> Building Scalable Solutions
+          </p>
+        </motion.div>
+
+        {/* About Me Section */}
+        <motion.section
+          className="mt-10"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <p className="text-lg text-gray-300 leading-relaxed">
+            I am a dedicated Software Engineer with expertise in .NET, database optimization, and system reliability.
+            Welcome to my portfolio, where you can explore my skills, projects, and achievements.
+          </p>
+        </motion.section>
+
+        {/* Call-to-Actions */}
+        <motion.section
+          className="mt-12 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <button
+            onClick={handleHireMeClick}
+            className="px-8 py-4 bg-teal-500 text-white font-semibold rounded-full hover:bg-teal-600 transition duration-300 transform hover:scale-105 shadow-lg"
+          >
+            Hire Me
+          </button>
+          
+        </motion.section>
+
+        {/* Social Links */}
+        <motion.section
+          className="mt-10 flex justify-center space-x-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <a
+            href="https://www.linkedin.com/in/shubham-kumar-25aa30133/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-teal-400 hover:text-teal-600 transition duration-300 text-3xl"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/shubhamchauhan38"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-teal-400 hover:text-teal-600 transition duration-300 text-3xl"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="mailto:shubham.rathore.0631@gmail.com"
+            className="text-teal-400 hover:text-teal-600 transition duration-300 text-3xl"
+          >
+            <FaEnvelope />
+          </a>
+        </motion.section>
       </div>
+      
     </div>
   );
 };

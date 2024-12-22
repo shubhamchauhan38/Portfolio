@@ -1,4 +1,4 @@
-// filepath: /d:/Programming/React/Portfolio/portfolio/src/component/Navbar.js
+// filepath: /d:/Programming/React/Project/Project/src/component/Navbar.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -16,7 +16,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-white text-2xl font-extrabold tracking-wide">
           <Link to="/" className="hover:text-teal-400 transition duration-300">
-            My<span className="text-teal-400">Portfolio</span>
+            My<span className="text-teal-400">Project</span>
           </Link>
         </div>
 
@@ -26,7 +26,7 @@ const Navbar = () => {
             to="/"
             className="text-gray-300 hover:text-teal-400 text-lg font-medium transition duration-300"
           >
-            Home
+            Portfolio
           </Link>
           <Link
             to="/about"
@@ -35,10 +35,10 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            to="/portfolio"
+            to="/Project"
             className="text-gray-300 hover:text-teal-400 text-lg font-medium transition duration-300"
           >
-            Portfolio
+            Project
           </Link>
           <Link
             to="/contact"
@@ -71,7 +71,7 @@ const Navbar = () => {
             className="block text-gray-300 hover:text-teal-400 py-2 px-4 text-center font-medium transition duration-300"
             onClick={toggleMenu}
           >
-            Home
+            Portfolio
           </Link>
           <Link
             to="/about"
@@ -81,11 +81,11 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            to="/portfolio"
+            to="/project"
             className="block text-gray-300 hover:text-teal-400 py-2 px-4 text-center font-medium transition duration-300"
             onClick={toggleMenu}
           >
-            Portfolio
+            Project
           </Link>
           <Link
             to="/contact"
