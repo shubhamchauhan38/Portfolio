@@ -10,7 +10,7 @@ import Resume from './pages/Resume'; // Import the Resume component
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">

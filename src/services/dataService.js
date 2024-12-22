@@ -44,7 +44,7 @@ export const coreSkills = [
   },
   {
     category: 'Database Management',
-    skills: ['Oracle SQL', 'SQL Server'],
+    skills: ['Oracle', 'SQL', 'NoSQL'],
   },
   {
     category: 'DevOps Tools',
