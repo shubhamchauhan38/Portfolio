@@ -9,14 +9,15 @@ const WorkExperience = () => {
       role: 'Associate Software Engineer',
       duration: '07/2023 - Present',
       description: [
-        'Developed and maintained client-centric software applications using .NET.',
-        'Optimized Oracle SQL queries, improving performance by 25%.',
-        'Streamlined data transfer processes using .NET frameworks, reducing processing time by 30%.',
-        'Actively participated in Agile Scrum ceremonies, contributing to sprint planning, daily stand-ups, and retrospectives.',
-        'Diagnosed and resolved complex software issues, ensuring minimal downtime and high system performance.',
-        'Collaborated with cross-functional teams via Jira for task management, ensuring timely project deliverables.',
-        'Estimated and planned work products during sprint cycles, ensuring timely delivery.',
-        'Provided on-call support for critical systems to ensure minimal downtime.'
+        '•	Developed and maintained client-centric software applications using .NET.',
+        '•	Optimized Oracle SQL queries, improving performance by 25%.',
+        '•	Streamlined data transfer processes using .NET frameworks, reducing processing time by 30%.',
+        '•	Actively participated in Agile Scrum ceremonies, contributing to sprint planning, daily stand-ups, and retrospectives.',
+        '•	Diagnosed and resolved complex software issues, ensuring minimal downtime and high system performance.',
+        '•	Collaborated with cross-functional teams via Jira for task management, ensuring timely project deliverables.',
+        '•	Estimated and planned work products during sprint cycles, ensuring timely delivery.',
+        '•	Provided on-call support for critical systems to ensure minimal downtime.',
+        '•	Designed and integrated REST APIs for seamless system communication.'
       ]
     },
     {
@@ -24,10 +25,10 @@ const WorkExperience = () => {
       role: 'Full Stack Intern',
       duration: '01/2023 – 06/2023',
       description: [
-        'Designed and developed a full-stack web application for operational tasks, including application verification and vehicle management.',
-        'Utilized C#, ASP.NET, Angular, and Entity Framework to create a responsive UI and efficient backend logic.',
-        'Integrated Oracle SQL for seamless data management between front-end and back-end.',
-        'Delivered a fully functional application by the end of the internship, following best practices in the software development lifecycle.'
+        '•	Designed and developed a full-stack web application for operational tasks, including application verification and vehicle management.',
+        '•	Utilized C#, ASP.NET, Angular, and Entity Framework to create a responsive UI and efficient backend logic.',
+        '•	Integrated Oracle SQL for seamless data management between front-end and back-end.',
+        '•	Delivered a fully functional application by the end of the internship, following best practices in the software development lifecycle.'
       ]
     }
   ];
